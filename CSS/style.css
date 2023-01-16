@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+body{
+    background-color: #000000;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../assets/image/bg.jpg");
+    height: 90px;
+}
+.header-inner img{
+    padding: 25px 20px;
+    color: #dbae82;
+}
+.header__logo:hover{
+    color: #dbae82;
+}
+header ul{
+    padding: 25px 20px;
+    font-family: 'Inter', sans-serif;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+header span{
+    color: #dbae82;
+}
+.nav-links__item{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-links__item:hover{
+    color: #dbae82;
+    transition-duration: 0.7s;
+}
+.about{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    background-image: url("../assets/image/bg.jpg");
+    background-position: 0 -90px;
+    height: 820px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about h1{
+    font-size: 60px;
+}
+.section-about__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding-right: 890px;
+    height: 120px;
+    line-height: 200%;
+}
+.section-about__button{
+    font-family: 'Inter', sans-serif;
+    width: 220px;
+    height: 55px;
+    background-color: #dbae82;
+    color: #000000;
+    font-size: 20px;
+    border: none;
+}
+.section-skills h3{
+    font-size: 40px;
+    color: #dbae82;
+    font-family: 'Merriweather', serif;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.photography{
+    width: 280px;
+    text-align: center;
+}
+.video{
+    width: 280px;
+    text-align: center;
+}
+.retouch{
+    width: 280px;
+    text-align: center;
+}
+.audio{
+    width: 280px;
+    text-align: center;
+}
+.skills-wrapper h2{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.skills-wrapper p{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+.blocks-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.section-skills{
+    text-align: center;
+}
+.section-skills h2{
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.section-skills p{
+    font-weight: 200;
+}
